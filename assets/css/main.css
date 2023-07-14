@@ -2476,10 +2476,16 @@ input, select, textarea {
 	}
 
 	#nav a {
-		font-size: 21px;
-		height: 2.5em;
-		margin-top: 10%;
+		font-size: 125%;
+    	height: 2.5em;
+    	margin-top: 7%;
 	}
+
+	p {
+		color: #fff;
+		text-shadow: none;
+	}
+
 
 	body {
 		background-color: #0d0b11;
@@ -2593,6 +2599,10 @@ input, select, textarea {
 		opacity: 0.8;
 	}
 
+	.wrapper.style4 form input[type=text], .wrapper.style4 form input[type=password], .wrapper.style4 form select, .wrapper.style4 form textarea::placeholder {
+		color: white;
+	}
+
 
 	@media screen and (max-width: 736px) {
 		.box.style1 {
@@ -2615,11 +2625,6 @@ input, select, textarea {
 			background-color: green;
 		}
 
-		#nav a {
-			font-size: 123%;
-			margin-top: 6%;
-		}
-
 		.box {
 			width: 100%;
 		}
@@ -2634,4 +2639,27 @@ input, select, textarea {
 		}
 		
 	}
+	
+
+
+	swiper-container {
+		width: 100%;
+		height: 100%;
+	  }
+  
+	  swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  }
+  
+	  swiper-slide img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	  }
 	
