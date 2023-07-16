@@ -2571,8 +2571,15 @@ input, select, textarea {
 	}
 
 	.box {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 9%;
+	}
+
+	.style1 {
 		width: 100%;
-		
+		margin-top: 0;
 	}
 
 	.style1:hover {
@@ -2580,8 +2587,7 @@ input, select, textarea {
 	}
 	
 	.image img { 
-		height: 15rem;
-		
+		height: 28rem;
 	}
 
 	#top .image img {
@@ -2603,6 +2609,29 @@ input, select, textarea {
 		color: white;
 	}
 
+	.style2 p {
+		margin-top: 3%;
+	}
+
+
+	swiper-container {
+		width: 100%;
+		height: 100%;
+	  }
+  
+	  swiper-slide {
+		background: #0d0b11;
+		height: 100%;
+	  }
+  
+	  swiper-slide img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	  }
+
+
 
 	@media screen and (max-width: 736px) {
 		.box.style1 {
@@ -2621,45 +2650,46 @@ input, select, textarea {
 			margin-top: 33px;
 		}
 
+		.style2 button {
+			width: 20%;
+		}
+
 		ul.social .zap {
 			background-color: green;
 		}
 
 		.box {
-			width: 100%;
+			width: 87%;
 		}
 		
 		.image img { 
-			height: 10rem;
-			
+			height: 14rem;
 		}
+
+		swiper-slide {
+			height: 100%;
+			margin-top: 10%;
+			width: 100% !important;
+		  }
 	
 		#top .image img {
 			height: 100%;
 		}
+
+		#nav li {
+		
+		margin-right: 3%;
+		}
+
+		#nav a {
+			font-size: 1rem;
+			padding: 0;
+		}
+
+		
 		
 	}
 	
 
 
-	swiper-container {
-		width: 100%;
-		height: 100%;
-	  }
-  
-	  swiper-slide {
-		text-align: center;
-		font-size: 18px;
-		background: #fff;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	  }
-  
-	  swiper-slide img {
-		display: block;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	  }
 	
