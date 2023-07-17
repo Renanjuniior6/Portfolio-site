@@ -2609,9 +2609,11 @@ input, select, textarea {
 		color: white;
 	}
 
-	.style2 p {
+	swiper-slide .style2 p {
 		margin-top: 3%;
+		font-size: 1.2rem;
 	}
+
 
 
 	swiper-container {
@@ -2689,6 +2691,12 @@ input, select, textarea {
 
 		#portfolio header h2 {
 			font-size: 1.8rem;
+			margin-bottom: 1.6rem;
+		}
+
+		swiper-slide .style2 p {
+			margin-top: 3%;
+			font-size: 1rem;
 		}
 
 		
