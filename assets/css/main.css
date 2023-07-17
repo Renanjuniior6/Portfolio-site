@@ -2631,8 +2631,6 @@ input, select, textarea {
 		object-fit: cover;
 	  }
 
-
-
 	@media screen and (max-width: 736px) {
 		.box.style1 {
 		width: 100%; 
@@ -2677,13 +2675,20 @@ input, select, textarea {
 		}
 
 		#nav li {
-		
 		margin-right: 3%;
 		}
 
 		#nav a {
 			font-size: 1rem;
 			padding: 0;
+		}
+
+		#top p {
+			font-size: 1.4em;
+		}
+
+		#portfolio header h2 {
+			font-size: 1.8rem;
 		}
 
 		
