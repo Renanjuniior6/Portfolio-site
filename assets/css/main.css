@@ -2456,10 +2456,10 @@ input, select, textarea {
 	box-shadow: 0 0px 0px rgba(0, 0, 0, .2);
 	}
 
+
 	.button {
 	text-shadow: 0 2px rgba(0, 0, 0, .11);
     background-color: rgba(0, 0, 0, 0);
-   /* background-image: linear-gradient(#f3a7dd, #eb50e9 44%, #450399); */
 	box-shadow: 0 19px 20px -18px rgba(0, 0, 0, .46), inset 0 1px rgba(255, 255, 255, .63);
 	background-image: linear-gradient(223deg, rgba(72, 49, 245, .7), rgba(249, 86, 255, .6));
 	}
@@ -2613,7 +2613,6 @@ input, select, textarea {
 		margin-top: 3%;
 		font-size: 1.2rem;
 	}
-
 
 
 	swiper-container {
